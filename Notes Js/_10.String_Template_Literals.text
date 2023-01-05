@@ -8,7 +8,6 @@
               String Templates
               Back-Tics Syntax    
 
-
               4.1 Back-Tics Syntax
                     Template Literals use back-ticks (``) rather than the quotes ("") to define a string:             
               4.2  Interpolation

@@ -37,7 +37,7 @@
 
 6.JavaScript Number Methods -
 
-  6.1toString() Method -
+  6.1 toString() Method -
         The toString() method returns a number as a string.
         
   6.2 The toExponential() Method - 
