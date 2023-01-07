@@ -60,7 +60,7 @@ Sorting an Array
 
         Math.max.apply(null, [1, 2, 3]) is equivalent to Math.max(1, 2, 3).
 
-    4.Math.min().apply- this method is same as max.
+    4.Math.min.apply()- this method is same as max.
     
     5.Sorting Object Arrays
             JavaScript arrays often contain objects:
