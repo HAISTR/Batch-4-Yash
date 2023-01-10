@@ -118,12 +118,12 @@
 // console.log(x);
 
 
-let arr = [
-    { name: "bahul", year: 2023 },
-    { name: "aahula", year: 2024 },
-    { name: "cahul", year: 2020 },
-    { name: "yash", year: 2022 }
-]
+// let arr = [
+//     { name: "bahul", year: 2023 },
+//     { name: "aahula", year: 2024 },
+//     { name: "cahul", year: 2020 },
+//     { name: "yash", year: 2022 }
+// ]
 
 
 // arr.sort(function(a, b){
@@ -131,13 +131,109 @@ let arr = [
 //     return b.year - a.year;
 // })
 
-arr.sort(function(a, b){
-    // console.log(b.year);
-    if( b.name > a.name){ return 1}
-    if( b.name < a.name){ return -1}
-    return 0;
-})
+// arr.sort(function(a, b){
+//     // console.log(b.year);
+//     if( b.name > a.name){ return 1}
+//     if( b.name < a.name){ return -1}
+//     return 0;
+// })
 
-console.log(arr);
+// console.log(arr);
+
+
+// array alteration method 
+
+// let arr = [12 , 13 , 14 , 15];
+
+// forEach - 
+
+// let x = arr.forEach(function(v , i){
+//     // console.log(i);
+//     return i;
+// })
+
+// console.log(x);
+
+// Map
+
+// let x = arr.map(function(value , index , array){
+//     return value*2
+// })
+
+// console.log(x);
+
+
+// filter
+// let arr = [12 , 13 , 14 , 15];
+
+// let x = arr.filter(function(val){
+//       return val >= 14;
+// })
+
+// console.log(x);
+
+
+// reduce
+// let arr = [12 , 13 , 14 , 15];
+
+// let x = arr.reduce(function(total , value , index , array){
+//      total = total + value;
+//      return total
+// } , 200 );
+
+// console.log(x);
+
+// every
+// let arr = [12 , 13 , 14 , 15];
+
+// let x = arr.every(function(v ,i ,A){
+//      return v > 14; 
+// });
+
+// console.log(x);
+
+// some
+// let arr = [12 , 13 , 14 , 15];
+
+// let x = arr.some(function(v ,i ,A){
+//      return v > 12; 
+// });
+
+// console.log(x);
+
+
+// // some
+// let arr = [12 , 13 , 14 , 15 , 13];
+
+// let x = arr.indexOf(13 , 2);
+// let x = arr.lastIndexOf(13 , 4);
+// console.log(x);
+
+
+// Find
+// let arr = [12 , 13 , 14 , 15 , 13];
+
+// let x = arr.find(function(v){
+//         return v > 13
+// });
+// console.log(x);
+
+// let x = arr.findIndex(function(v){
+//         return v > 15
+// });
+// console.log(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
