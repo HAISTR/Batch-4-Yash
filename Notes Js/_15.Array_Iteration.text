@@ -117,6 +117,9 @@ JavaScript Array forEach() -
         Example
             const numbers = [4, 9, 16, 25, 29];
             let first = numbers.find(myFunction);
++-9------*66666+
+
+
 
             function myFunction(value, index, array) {
             return value > 18;
