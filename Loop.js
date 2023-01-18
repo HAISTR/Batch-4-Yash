@@ -56,11 +56,11 @@
 //     console.log(obj[x]);
 // }
 
-let arr = [12 , 132, 13,21,3 , 45 , 45 , 78 ,78];
+// let arr = [12 , 132, 13,21,3 , 45 , 45 , 78 ,78];
 
-let l = arr.length;
+// let l = arr.length;
 
-for(let i =0 ; i < l ; i++){
-    console.log(arr[i]);
-}
+// for(let i =0 ; i < l ; i++){
+//     console.log(arr[i]);
+// }
 
