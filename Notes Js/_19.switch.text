@@ -4,18 +4,15 @@
         switch (num) {
             case 7:
                 console.log("7");
-
                 break;
             case 8:
                 console.log("8");
-
-                
+                break;
             case 9:
                 console.log("9");
-                
+                break;
             default:
                 console.log("out");
-
                 break;
         }
 
