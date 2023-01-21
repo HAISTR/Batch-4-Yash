@@ -40,3 +40,27 @@
 // console.log(arr);
 // console.log(x);
 
+let intro = "My 1 87515 name Is 5482113 hulRahul is and is";
+
+// let x= /hul\b/igm.test(intro);
+// let y= /\bhul/igm.test(intro);
+// console.log(x);
+// console.log(y);
+
+
+
+let x= /\u0061/g.test(intro);
+console.log(x);
+
+
+// let greet = "hello lo  oooo  lo  rahul ol lll ol llo";
+
+
+// let x = greet.match(/o+/g);
+// let y = greet.match(/o*/g);
+// let z = greet.match(/o?/g);
+
+// console.log(x);
+// console.log(y);
+// console.log(z);
+

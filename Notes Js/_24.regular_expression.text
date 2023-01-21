@@ -56,6 +56,9 @@ Example -
 
         \uxxxx	        Find the Unicode character specified by the hexadecimal number xxxx	
 
+        ex - let x= /\u0061/g.test(intro);
+             console.log(x);
+
     4. Quantifiers define quantities:
 
         Quantifier	Description	Try it
